@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta descripcion name="description" content="Página principal de este simulador de blog">
+    <meta descripcion name="canonica" content="">
+    <meta name="theme-color" content="#9BC406">
+    <title>Bibliolibro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="https://kit.fontawesome.com/1a869df086.js" crossorigin="newspaper"></script>
+    <script src="https://kit.fontawesome.com/1a869df086.js" crossorigin="glasses"></script>
+    <script src="https://kit.fontawesome.com/1a869df086.js" crossorigin="book-open"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="icon" href="Imagenes/icono.ico">
+    <link rel="apple-touch-icon" href="Imagenes/icono.ico">
+</head>
+<body>
+    <header>
+        <h1>Bibliolibro</h1>
+    </header>
+        <nav>
+            <div><b><a href="index.html">Inicio</a></b></div> 
+            <div><a href="Reseñas/index.html">Reseñas</a></div>
+            <div><a href="Debates/index.html">Debates</a></div>
+            <div><a href="Lecturas/index.html">Lecturas grupales</a></div>
+            <div><a href="Noticias/index.html">Noticias</a></div>
+        </nav>
+        <br>
+        <div class="row">
+          <div class="d-flex justify-content-center car_sel">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="Imagenes/grafico3.png" class="d-block car_sel w-80" alt="grafico 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Imagenes/grafico2.png" class="d-block car_sel w-80" alt="grafico 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Imagenes/grafico.png" class="d-block car_sel w-80" alt="grafico 1">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+          </div>
+      </div>
+        <br>
+        <div class="row m-10 d-flex justify-content-around">
+            <div class="card col-3 m-2" style="width: 18rem;">
+                <img src="Imagenes/card2.png" class="card-img-top mt-2" alt="reseña Fahrenheit-451">
+                <div class="card-body">
+                  <h5 class="card-title">Reseña de Fahrenheit-451</h5>
+                  <p class="card-text">Un mundo donde los libros son quemados y donde ser lector de ellos es un crimen ¿Te gustaría saber si
+                      deberías leer este libro tan popular de Ray Bradbury?
+                  </p>
+                  <a href="Reseñas/index.html" class="btn btn-dark">Apreta aquí para ir</a>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 18rem;">
+                <img src="Imagenes/card3.png" class="card-img-top mt-2" alt="debate libros tecnológicos o físicos">
+                <div class="card-body">
+                  <h5 class="card-title">¿Libros tecnológicos o en papel?</h5>
+                  <p class="card-text"> Desde hace tiempo, los Ebook han llegado para quedarse. Muchos lectores están fascinados con ellos, otros se 
+                      preocupan por el futuro de los lectores ¿Querés ver las desventajas y ventajas de cada uno?
+                  </p>
+                  <a href="Debates/index.html" class="btn btn-dark">Apreta aquí para ir</a>
+                </div>
+            </div>
+            <div class="card col-3 m-2" style="width: 18rem;">
+                <img src="Imagenes/card1.png" class="card-img-top mt-2" alt="Lectura grupal Un Mundo Feliz">
+                <div class="card-body">
+                  <h5 class="card-title">Lectura grupal de Un Mundo Feliz</h5>
+                  <p class="card-text"> La tecnología avanza rompiendo los términos de familia, arte, amor a través de una droga llamada Soma,
+                      pero habrá alguien que empiece a cuestionar este nuevo mundo ¿Que tal si me acompañas a mi y a otros lectores a adentrarnos
+                      en este mundo creado por Aldous Huxley?
+                  </p>
+                  <a href="Lecturas/index.html" class="btn btn-dark">Apreta aquí para ir</a>
+                </div>
+            </div>
+        </div>
+    <hr>
+    <footer>
+        <h6 class="texto_footer"><b>Simulador de blog. Todos los derechos reservados. Bibliolibros 2021.</b></h6>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+html{
+    height: 100%;
+}
+
+h1{
+    color:rgb(172, 218, 7);
+    font-family: 'Train One', cursive;
+    font-size: 100px;
+    text-align:center;
+    background-image: url(../Imagenes/593089750_640x360.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom:50px;
+}
+
+body{
+    background-color: rgb(0,0,0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    display:flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.titulos {
+    font-family: 'Ribeye', cursive;
+    color: rgb(230, 230, 230)
+}
+
+.texto{
+    font-family: 'Sora', sans-serif;
+    color:rgb(255, 255, 255)
+}
+
+
+.texto_footer{
+    font-family: 'Sora', sans-serif;
+    color:rgb(0,0,0)
+}
+
+#imagen{
+    width:150px; 
+    height:150px;
+    float:left;
+}
+
+.imagen{
+    width:130px;
+    height:200px;
+    float:left;
+}
+
+span{
+    color: rgb(172, 218, 7);
+}
+
+article{
+    border:inset;
+    background-image: url(../Imagenes/593089750_640x360.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    width:1500px;
+    border-color:rgb(155, 196, 6);
+}
+
+section{
+    width:0px;
+    margin-top: .8%;
+    margin-left:-.4%;
+    flex: auto
+}
+
+.reseñas{
+    width:360px;
+    height:369px;
+    background-image: url(../Imagenes/593089750_640x360.jpg);
+}
+
+.debates{
+    width:360px;
+    height:819px;
+    background-image: url(../Imagenes/593089750_640x360.jpg);
+}
+
+.lecturas{
+    width:360px;
+    height:2090px;
+    background-image: url(../Imagenes/593089750_640x360.jpg);
+}
+
+.noticias{
+    width:360px;
+    height:595px;
+    background-image: url(../Imagenes/593089750_640x360.jpg);
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    margin-top:-50px;
+    background-color: rgba(155, 196, 6, 0.8);
+    padding: 5px 0px 10px;
+}
+
+nav :hover{
+    background-color:rgb(131, 167, 3);
+}
+
+nav :active{
+    border:inset;
+    border-color:rgb(155, 196, 6)
+}
+
+div{
+    margin-left:10px;
+}
+
+footer{
+    text-align: center;
+    margin-top:auto;
+    background-color: rgba(155, 196, 6, 0.8);
+    height:20px;
+    
+}
+
+aside{
+    color:rgb(230, 230, 230);
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: 2500%;
+    border:inset;
+    border-color:rgb(155, 196, 6);
+    margin-top: .8%;
+}
+
+a{
+    font-family: 'Sora', sans-serif;
+    color: rgb(0,0,0);
+    padding: 5px 0px 10px;
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+}
+
+a:hover{
+    color:rgb(230, 230, 230);
+}
+
+.enlaces{
+    color:rgb(230, 230, 230)
+}
+
+.card{
+    background-color: rgba(155, 196, 6, .8);
+}
+
+.sect_aside{
+    display:flex;
+}
+
+@media(max-width: 360px){
+    h1{
+        font-size: 65px;
+        background-size: 600px;
+    }
+    nav{
+        margin-top:auto;
+    }
+
+    .sect_aside{
+        flex-wrap: wrap;
+    }
+    .noticias, .lecturas, .debates, .reseñas{
+        height: 100%;
+    }
+    article{
+        width:338px;
+        background-size: 610%;
+    }
+    .car_sel{
+        width:90%;
+    }
+}
