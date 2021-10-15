@@ -185,3 +185,10 @@ a:hover{
         width:90%;
     }
 }
+
+@media(max-width:2560px){
+    h1{
+        width:100%;
+    }
+}
+    
