@@ -185,19 +185,3 @@ a:hover{
         width:90%;
     }
 }
-@media(width:2560px){
-    h1{
-        width:2560px;
-    }
-    article{
-        width: 2000px;
-    }
-}
-@media(width:1440px){
-    nav{
-        width:1440px;
-        flex-position: flex-end;
-    }
-}
-    
-
