@@ -195,10 +195,4 @@ a:hover{
     }
 }
 
-@media(max-width:1440px){
-    nav{
-        width:1440px;
-        flex-position: flex-end;
-    }
-}
-    
+
