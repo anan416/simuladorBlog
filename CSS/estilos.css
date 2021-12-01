@@ -64,7 +64,6 @@ article{
     background-image: url(../Imagenes/593089750_640x360.jpg);
     background-repeat: no-repeat;
     background-size: 200%;
-    width:1500px;
     border-color:rgb(155, 196, 6);
 }
 
@@ -76,25 +75,21 @@ section{
 }
 
 .reseñas{
-    width:360px;
     height:369px;
     background-image: url(../Imagenes/593089750_640x360.jpg);
 }
 
 .debates{
-    width:360px;
     height:819px;
     background-image: url(../Imagenes/593089750_640x360.jpg);
 }
 
 .lecturas{
-    width:360px;
     height:2090px;
     background-image: url(../Imagenes/593089750_640x360.jpg);
 }
 
 .noticias{
-    width:360px;
     height:595px;
     background-image: url(../Imagenes/593089750_640x360.jpg);
 }
