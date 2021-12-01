@@ -74,26 +74,6 @@ section{
     flex: auto
 }
 
-.reseñas{
-    height:369px;
-    background-image: url(../Imagenes/593089750_640x360.jpg);
-}
-
-.debates{
-    height:819px;
-    background-image: url(../Imagenes/593089750_640x360.jpg);
-}
-
-.lecturas{
-    height:2090px;
-    background-image: url(../Imagenes/593089750_640x360.jpg);
-}
-
-.noticias{
-    height:595px;
-    background-image: url(../Imagenes/593089750_640x360.jpg);
-}
-
 nav{
     display:flex;
     justify-content: center;
@@ -131,6 +111,7 @@ aside{
     border:inset;
     border-color:rgb(155, 196, 6);
     margin-top: .8%;
+    background-image: url(../Imagenes/593089750_640x360.jpg)
 }
 
 a{
