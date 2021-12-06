@@ -40,7 +40,7 @@ body{
 
 .texto_footer{
     font-family: 'Sora', sans-serif;
-    color:rgb(0,0,0)
+    color:rgb(0,0,0);
 }
 
 #imagen{
@@ -111,7 +111,7 @@ aside{
     border:inset;
     border-color:rgb(155, 196, 6);
     margin-top: .8%;
-    background-image: url(../Imagenes/593089750_640x360.jpg)
+    background-image: url(../Imagenes/593089750_640x360.jpg);
 }
 
 a{
@@ -127,7 +127,7 @@ a:hover{
 }
 
 .enlaces{
-    color:rgb(230, 230, 230)
+    color:rgb(230, 230, 230);
 }
 
 .card{
@@ -160,4 +160,12 @@ a:hover{
     .car_sel{
         width:90%;
     }
+}
+
+input{
+    width:80%;
+}
+
+.comment1, .comment2, .comment3, .comment4, .comment5, .comment6, .comment7, .comment8, .comment9, .comment0{
+    color:rgb(230, 230, 230);
 }
