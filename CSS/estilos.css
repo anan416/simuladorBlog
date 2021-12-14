@@ -138,7 +138,7 @@ a:hover{
     display:flex;
 }
 
-@media(max-width: 360px){
+@media(max-width: 414px){
     h1{
         font-size: 65px;
         background-size: 600px;
@@ -148,12 +148,10 @@ a:hover{
     }
 
     .sect_aside{
-        flex-wrap: wrap;
-    }
-    .noticias, .lecturas, .debates, .reseñas{
-        height: 100%;
+        flex-direction:column;
     }
     article{
+        height: 100%;
         width:338px;
         background-size: 610%;
     }
